@@ -3,11 +3,11 @@
     */
 var settings = {
     particles: {
-      length:   2000, // maximum amount of particles
+      length:   3000, // maximum amount of particles
       duration:   2, // particle duration in sec
       velocity: 100, // particle velocity in pixels/sec
       effect: -1.3, // play with this for a nice effect
-      size:      13, // particle size in pixels
+      size:      16, // particle size in pixels
     },
   };
   /*
@@ -181,7 +181,7 @@ var settings = {
       }
       context.closePath();
       // create the fill
-      context.fillStyle = '#FF5CA4';
+      context.fillStyle = 'red';
       context.fill();
       // create the image
       var image = new Image();
